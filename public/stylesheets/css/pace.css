@@ -38,8 +38,15 @@ img.tshirt {
     border-color: black;
 }
 
-.grey {
-  background-color: #f8f8f8;
+.content {
+  background-color: lightgrey;
+  margin-top: 1em;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    background-color: black;
 }
 
 .warning {
@@ -115,4 +122,3 @@ input[type="button"].button-primary:focus {
     background-color: rgb(200, 0, 39);
     border-color: rgb(200, 0, 39);
 }
-
