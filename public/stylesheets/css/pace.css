@@ -38,6 +38,10 @@ img.tshirt {
     border-color: black;
 }
 
+.grey {
+  background-color: #f8f8f8;
+}
+
 .warning {
     color: #FFF;
     background-color: rgb(212, 64, 52);
