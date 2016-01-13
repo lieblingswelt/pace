@@ -10,6 +10,8 @@ hr.navigation {
 img.logo {
     width: 125px;
     height: 125px;
+    margin: auto;
+    display: block;
 }
 
 img.tshirt {
