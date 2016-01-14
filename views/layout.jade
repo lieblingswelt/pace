@@ -10,23 +10,23 @@ html
     script(src='//code.jquery.com/jquery-1.11.3.min.js')
     script(src='//cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js')
   body
-    .container
-      if (node_env) != "production"
-        .row
-          h6.warning.centered DIES IST NUR EINE TESTUMGEBUNG. REGISTRIERUNGEN FUER 2016 SIND NOCH NICHT MOEGLICH
-      .row
-        a.four.columns.no-link(href='/')
-          h5.centered Information
-        a#registration.four.columns.no-link(href='/registration')
-          h5.centered Anmeldung
-        a.four.columns.no-link(href='/participants')
-          h5.centered Teilnehmer
-      .row
-        .offset-by-four.four.columns
-          object.logo(data='/images/logo.svg', type='image/svg+xml')
-
-    .content.outer
+    .outer-container
       .container
-        block content
-    .footer.outer
-      .container Footer. Info about the site. Email etc.
+        if (node_env) != "production"
+          .row
+            h6.warning.centered DIES IST NUR EINE TESTUMGEBUNG. REGISTRIERUNGEN FUER 2016 SIND NOCH NICHT MOEGLICH
+        .row
+          a.four.columns.no-link(href='/')
+            h5.centered Information
+          a#registration.four.columns.no-link(href='/registration')
+            h5.centered Anmeldung
+          a.four.columns.no-link(href='/participants')
+            h5.centered Teilnehmer
+        .row
+          .offset-by-four.four.columns
+            object.logo(data='/images/logo.svg', type='image/svg+xml')
+      .outer-content-container
+        .container
+          block content
+      .outer-footer-container
+        .footer Footer. Info about the site. Email etc.
