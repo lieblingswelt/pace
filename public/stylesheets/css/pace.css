@@ -54,7 +54,6 @@ body {
 }
 
 .content {
-  background-color: lightgrey;
   margin-top: 1em;
   flex-grow: 2;
 }
@@ -70,7 +69,7 @@ body {
 .outer-content-container {
   flex-grow: 2;
   width: 100%;
-  background-color: lightgrey;
+  background-color: #f8f8f8;
 }
 
 .outer-footer-container {
