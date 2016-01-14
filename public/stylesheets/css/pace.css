@@ -7,9 +7,9 @@ hr.navigation {
     top: -10px;
 }
 
-img.logo {
-    width: 125px;
-    height: 125px;
+object.logo {
+    width: 100%;
+    height: auto;
     margin: auto;
     display: block;
 }
