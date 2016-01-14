@@ -9,6 +9,7 @@ hr.navigation {
 
 object.logo {
     width: 100%;
+    max-width: 15em;
     height: auto;
     margin: auto;
     display: block;
