@@ -22,6 +22,10 @@ img.tshirt {
     opacity: 0;
 }
 
+.outer {
+  width: 100%;
+}
+
 .center {
     padding: 10px;
     position: relative;
