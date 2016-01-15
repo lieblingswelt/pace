@@ -67,6 +67,7 @@ body {
 
 
 .outer-content-container {
+  padding-top: 2em;
   flex-grow: 2;
   width: 100%;
   background-color: #f8f8f8;
